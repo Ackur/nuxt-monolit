@@ -1,0 +1,15 @@
+GET http://localhost:3000/api/drafts
+
+
+###
+GET http://localhost:3000/api/user
+
+###
+POST http://localhost:3000/api/user
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Ackur",
+    "email": "ackur@test"
+}
